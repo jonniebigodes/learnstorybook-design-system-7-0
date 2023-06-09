@@ -18,7 +18,8 @@
     "release": "yarn build && auto shipit",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test-storybook": "test-storybook"
   },
   "author": "jonniebigodes",
   "license": "MIT",
@@ -40,8 +41,10 @@
     "@storybook/addon-interactions": "^7.0.20",
     "@storybook/addon-links": "^7.0.20",
     "@storybook/blocks": "^7.0.20",
+    "@storybook/jest": "^0.1.0",
     "@storybook/react": "^7.0.20",
     "@storybook/react-vite": "^7.0.20",
+    "@storybook/test-runner": "^0.10.0",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@vitejs/plugin-react": "^3.1.0",
     "auto": "^10.3.0",
