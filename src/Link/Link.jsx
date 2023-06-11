@@ -4,8 +4,8 @@ import { css } from '@emotion/react';
 
 import { darken } from 'polished';
 
-import { Icon } from './Icon';
-import { color } from './shared/styles';
+import { Icon } from '../Icon';
+import { color } from '../shared/styles';
 
 const linkStyles = css`
   display: inline-block;

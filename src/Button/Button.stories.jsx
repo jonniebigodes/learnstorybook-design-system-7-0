@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
 
 import { Button } from './Button';
-import { Icon } from './Icon';
-import { StoryLinkWrapper } from './StoryLinkWrapper';
+import { Icon } from '../Icon/Icon';
+import { StoryLinkWrapper } from '../LinkWrapper';
 
 import { userEvent, within } from '@storybook/testing-library';
 import { expect } from '@storybook/jest';

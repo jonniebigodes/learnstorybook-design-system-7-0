@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
 import { action } from '@storybook/addon-actions';
 
-import { Icon } from './Icon';
+import { Icon } from '../Icon';
 import { Link } from './Link';
-import { StoryLinkWrapper } from './StoryLinkWrapper';
+import { StoryLinkWrapper } from '../LinkWrapper';
 
 const CustomLink = styled(Link)`
   && {

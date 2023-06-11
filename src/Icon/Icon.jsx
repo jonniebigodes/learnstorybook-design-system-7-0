@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
-import { icons } from './shared/icons';
+import { icons } from '../shared/icons';
 
 const Svg = styled.svg`
   display: ${(props) => (props.block ? 'block' : 'inline-block')};
