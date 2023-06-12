@@ -82,6 +82,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "https://github.com/jonniebigodes/learnstorybook-design-system-7-0.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonniebigodes/learnstorybook-design-system-7-0.git"
+  },
   "private": false
 }
