@@ -1,3 +1,18 @@
+# v0.1.3 (Mon Jun 12 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Removes spacing ([@jonniebigodes](https://github.com/jonniebigodes))
+- Additional tweaks ([@jonniebigodes](https://github.com/jonniebigodes))
+- Tweaks to the release and package.json ([@jonniebigodes](https://github.com/jonniebigodes))
+- Build workflow improved ([@jonniebigodes](https://github.com/jonniebigodes))
+
+#### Authors: 1
+
+- [@jonniebigodes](https://github.com/jonniebigodes)
+
+---
+
 # v0.1.2 (Mon Jun 12 2023)
 
 #### ⚠️ Pushed to `main`
