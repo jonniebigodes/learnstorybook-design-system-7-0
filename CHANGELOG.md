@@ -1,3 +1,15 @@
+# v0.1.9 (Tue Jun 13 2023)
+
+#### ⚠️ Pushed to `main`
+
+- moves export and rollup ([@jonniebigodes](https://github.com/jonniebigodes))
+
+#### Authors: 1
+
+- [@jonniebigodes](https://github.com/jonniebigodes)
+
+---
+
 # v0.1.8 (Tue Jun 13 2023)
 
 #### ⚠️ Pushed to `main`
