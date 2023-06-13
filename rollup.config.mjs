@@ -38,7 +38,7 @@ export default [
       babel({
         extensions: ['.js', '.jsx'],
         exclude: 'node_modules/**',
-        presets: ['@babel/preset-react'],
+        /*  presets: ['@babel/preset-react'], */
       }),
     ],
     external: ['react', 'react-dom', '@emotion/react', '@emotion/styled'],
