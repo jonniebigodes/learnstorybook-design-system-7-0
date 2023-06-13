@@ -4,7 +4,13 @@ import terser from '@rollup/plugin-terser';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import { babel } from '@rollup/plugin-babel';
 
-const packageJson = require('./package.json');
+// This is required to read package.json file when
+// using Native ES modules in Node.js
+// https://rollupjs.org/command-line-interface/#importing-package-json
+import { createRequire } from 'node:module';
+const requireFile = createRequire(import.meta.url);
+const packageJson = requireFile('./package.json');
+//const packageJson = require('./package.json');
 
 export default [
   {
@@ -30,7 +36,6 @@ export default [
       commonjs(),
       terser(),
       babel({
-        babelHelpers: 'bundled',
         extensions: ['.js', '.jsx'],
         exclude: 'node_modules/**',
         presets: ['@babel/preset-react'],
