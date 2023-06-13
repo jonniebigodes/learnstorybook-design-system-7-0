@@ -1,4 +1,4 @@
-import { Global, css } from '@emotion/react';
+import { css } from '@emotion/react';
 import { color, typography } from './styles';
 
 export const fontUrl =
@@ -113,10 +113,8 @@ export const bodyStyles = css`
     }
   }
 `;
-const GlobalStyle = css`
+export const GlobalStyle = css`
   body {
     ${bodyStyles}
   }
 `;
-
-export const GlobalStyles = () => <Global styles={GlobalStyle} />;

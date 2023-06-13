@@ -1,11 +1,12 @@
-import { GlobalStyles } from '../src/shared/global';
+import { Global } from '@emotion/react';
+import { GlobalStyle } from '../src/shared/global';
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   decorators: [
     (Story) => (
       <>
-        <GlobalStyles />
+        <Global styles={GlobalStyle} />
         <Story />
       </>
     ),
