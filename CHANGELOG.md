@@ -1,3 +1,15 @@
+# v0.1.6 (Tue Jun 13 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Updated the global styles ([@jonniebigodes](https://github.com/jonniebigodes))
+
+#### Authors: 1
+
+- [@jonniebigodes](https://github.com/jonniebigodes)
+
+---
+
 # v0.1.3 (Mon Jun 12 2023)
 
 #### ⚠️ Pushed to `main`
