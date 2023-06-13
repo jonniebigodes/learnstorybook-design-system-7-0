@@ -1,6 +1,6 @@
 {
   "name": "@jonniebigodes/learnstorybook-design-system-7-0",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Everything you need to build a starter design system",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
