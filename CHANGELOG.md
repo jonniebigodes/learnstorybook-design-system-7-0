@@ -1,3 +1,15 @@
+# v0.1.14 (Wed Jun 14 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Adds Emotion babel config ([@jonniebigodes](https://github.com/jonniebigodes))
+
+#### Authors: 1
+
+- [@jonniebigodes](https://github.com/jonniebigodes)
+
+---
+
 # v0.1.13 (Wed Jun 14 2023)
 
 #### ⚠️ Pushed to `main`
