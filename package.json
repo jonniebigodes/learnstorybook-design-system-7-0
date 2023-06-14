@@ -6,9 +6,7 @@
   "module": "dist/esm/index.js",
   "files": [
     "dist/**/*",
-    "README.md",
-    "*.js",
-    "*.d.ts"
+    "README.md"
   ],
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
