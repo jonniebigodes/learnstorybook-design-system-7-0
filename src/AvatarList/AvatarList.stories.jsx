@@ -3,6 +3,7 @@ import { AvatarList } from './AvatarList';
 export default {
   title: 'Design System/AvatarList',
   component: AvatarList,
+  tags: ['autodocs'], //needed for initial state
 };
 
 export const Short = {
@@ -33,5 +34,36 @@ export const Loading = {
   args: {
     ...Short.args,
     loading: true,
+  },
+};
+
+export const Ellipsized = {
+  args: {
+    users: [
+      ...Short.args.users,
+      {
+        id: '3',
+        name: 'Zoltan Olah',
+        avatarUrl: 'https://avatars0.githubusercontent.com/u/81672',
+      },
+      {
+        id: '4',
+        name: 'Tim Hingston',
+        avatarUrl: 'https://avatars3.githubusercontent.com/u/1831709',
+      },
+    ],
+  },
+};
+
+export const BigUserCount = {
+  args: {
+    users: Ellipsized.args.users,
+    userCount: 100,
+  },
+};
+
+export const Empty = {
+  args: {
+    users: [],
   },
 };
