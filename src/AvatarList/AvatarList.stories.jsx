@@ -21,3 +21,17 @@ export const Short = {
     ],
   },
 };
+
+export const SmallSize = {
+  args: {
+    ...Short.args,
+    size: 'small',
+  },
+};
+
+export const Loading = {
+  args: {
+    ...Short.args,
+    loading: true,
+  },
+};
